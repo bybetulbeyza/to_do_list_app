@@ -27,7 +27,7 @@ canvas.create_image(0,0,image=bg_photo, anchor="nw")
 #task entries
 task_entries=[]
 for i in range(10):
-    entry=tk.Entry(root,font=("Red Hat Display",12,"bold"), fg="#9b431b", bg="#8fa9a9", relief="flat", justify="left")
+    entry=tk.Entry(root,font=("Red Hat Display",11,"bold"), fg="#9b431b", bg="#8fa9a9", relief="flat", justify="left")
     entry.place(x=42, y=30+i*20, width=140)
     task_entries.append(entry)
 root.mainloop()
