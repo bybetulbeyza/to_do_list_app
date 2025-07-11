@@ -21,7 +21,8 @@ def show_context_menu(event):
     menu.tk_popup(event.x_root, event.y_root)
 root.bind("<Button-3>",show_context_menu)   
 #background image
-bg_image =Image.open("background.png").resize((250,250),Image.Resampling.LANCZOS)
+bg_image = Image.open(r"C:\Users\demir\Desktop\to_do_list\background.png").resize((250, 250), Image.Resampling.LANCZOS)
+
 bg_photo =ImageTk.PhotoImage(bg_image)
 canvas.create_image(0,0,image=bg_photo, anchor="nw")
 #task entries

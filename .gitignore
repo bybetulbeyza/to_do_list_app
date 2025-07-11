@@ -1,0 +1,12 @@
+# PyInstaller tarafından oluşturulan klasör ve dosyalar
+build/
+dist/
+*.spec
+*.exe
+
+# Python'un oluşturduğu önbellek dosyaları
+__pycache__/
+*.pyc
+
+# VSCode'a özel ayarlar
+.vscode/
